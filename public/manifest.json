@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Quick Dash",
+  "name": "Welcome to Quick Dash, improving your work flow.",
   "icons": [
     {
       "src": "favicon.ico",
