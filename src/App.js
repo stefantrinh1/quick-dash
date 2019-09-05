@@ -14,6 +14,7 @@ import Capitalize from "./components/Capitalize"
 import TitleCase from './components/TitleCase';
 import Clear from "./components/Clear";
 import CopyToClipboard from './components/CopyToClipboard';
+import SentenceCase from './components/SentenceCase';
 
 const App = () => {
 
@@ -39,17 +40,17 @@ const App = () => {
 
       <section className="TextOperations">
         <div className="TextOperations__Container">
-        <CopyToClipboard />
-        <Clear />
-        <WordCharacterCount />
-        <TextArea />
-        <DashSpaces />
-        <RemoveSpecialCharacters />
-        <TitleCase />
-        <Uppercase />
-        <Lowercase />
-        <Capitalize />
-        {/* <button>Sentence Case</button> */}
+          <CopyToClipboard />
+          <Clear />
+          <WordCharacterCount />
+          <TextArea />
+          <DashSpaces />
+          <RemoveSpecialCharacters />
+          <TitleCase />
+          <Uppercase />
+          <Lowercase />
+          <Capitalize />
+          <SentenceCase />
         </div>
       </section>
 
