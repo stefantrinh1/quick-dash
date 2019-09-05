@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #5dacbd;
+}
+
+p {
+  color: #313131;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 50vmin;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0.2em;
+  font-size: 3em;
+}
+
+.App-header p {
+  margin: 0.5em;
+  font-size: 0.75em;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* ========= Header ============ */
+
+.Header__Logo {
+  display: block;
+  width: 20%;
+  margin-bottom: 0.5em;
+}
+
+/* ====== Introduction ========= */
+
+.Introduction {
+  padding: 2.5% 5%;
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ========== Benefits ========= */
+
+.Benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* background: #282c34; */
+  padding: 2.5% 5%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.Benefits__ContentBox {
+  width: 33.333%;
+  padding: 1%;
+  color: #333333;
+  margin: 0 auto;
+}
+
+.Benefits__ContentBox p {
+  color: #333333;
+}
+
+.Benefits__ContentBox img {
+  height: 40px;
+  margin: 0 auto;
+}
+
+/* ======= Text Operations ========= */
+
+.TextOperations {
+  width: 100%;
+  display: block;
+  padding: 1em 5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* background: #282c34; */
+  /* background-color: #4daeb1; */
+  background: #eaeaea;
+}
+
+.TextOperations__Container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.TextOperations__TextAreaContainer {
+  margin: 0em auto 1em;
+  /* max-width: 1000px; */
+}
+
+.TextOperations__TextArea {
+  display: block;
+  resize: vertical;
+  min-height: 2.5em;
+  font-size: 1.1rem;
+  width: 100%;
+  height: 30vh;
+  padding: 10px;
+  border: grey solid 1px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.TextOperations__CountContainer {
+  display: block;
+  text-align: right;
+  margin-top: 0.5em;
+}
+
+.TextOperations__Count {
+  font-size: 0.9em;
+  margin: 0 3px;
+  color: black;
+}
+
+.TextOperations button {
+  border: none;
+  margin: 10px 5px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #417f84;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+}
+.TextOperations button:hover {
+  opacity: 0.75;
+}
+
+.TextOperations__ButtonIcon {
+  height: 1em;
+  margin: 0 0.4em;
+}
+
+
+
+/* ========= Footer ========== */
+
+.Footer {
+  padding: 5%;
+  color: white;
+  background: #282c34;
+}
+
+.Footer p {
+  color: white;
+}
+
+
+
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}

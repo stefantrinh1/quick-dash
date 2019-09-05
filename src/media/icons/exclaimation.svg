@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="107px" viewBox="0 0 29 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>exclaimation</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-57.1%" y="-12.0%" width="214.3%" height="124.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="White-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Max-Size" transform="translate(-453.000000, -97.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="exclaimation" filter="url(#filter-1)" transform="translate(457.000000, 99.000000)">
+                <path d="M10.2943925,71.6850467 C4.85981308,71.6850467 0.455140187,67.2813084 0.455140187,61.8457944 L0.455140187,9.83925234 C0.455140187,4.40560748 4.86074766,0 10.2943925,0 C15.7271028,0 20.133645,4.40560748 20.133645,9.83925234 L20.133645,61.8457944 C20.1345794,67.2813084 15.728972,71.6850467 10.2943925,71.6850467 Z" id="Path"></path>
+                <circle id="Oval" cx="9.6635514" cy="90.6607477" r="8.43364486"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
