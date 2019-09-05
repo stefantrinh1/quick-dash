@@ -15,6 +15,8 @@ import TitleCase from './components/TitleCase';
 import Clear from "./components/Clear";
 import CopyToClipboard from './components/CopyToClipboard';
 import SentenceCase from './components/SentenceCase';
+import SpaceToDash from './components/SpaceToDash';
+import DashToSpace from './components/SpaceToDash';
 
 const App = () => {
 
@@ -51,6 +53,7 @@ const App = () => {
           <Lowercase />
           <Capitalize />
           <SentenceCase />
+          <DashToSpace />
         </div>
       </section>
 
