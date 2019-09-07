@@ -15,8 +15,8 @@ import TitleCase from './components/TitleCase';
 import Clear from "./components/Clear";
 import CopyToClipboard from './components/CopyToClipboard';
 import SentenceCase from './components/SentenceCase';
-import SpaceToDash from './components/SpaceToDash';
 import DashToSpace from './components/SpaceToDash';
+import GithubLogo from './media/logos/GithubLogo.png'
 
 const App = () => {
 
@@ -96,6 +96,27 @@ const App = () => {
       <section className="Footer">
         <p>© QuickDash 2019</p>
         <p>An Application By Stefan Trinh | <a href="https://www.stefantrinh.com">stefantrinh.com</a></p>
+
+        <div className="Footer__Logos">
+          <a href="https://github.com/stefantrinh1/quick-dash">
+            <img src={GithubLogo} />
+          </a>
+        </div>
+
+        <span><b><u>Contributors</u></b></span>
+        <li><a href="https://www.journalofz.com">Journal of Z</a></li>
+        <li><a href="https://www.kassiella.com">[ kassiella ]</a></li>
+
+        <br/>
+        <span><b><u>Pending Features/Functions</u></b></span>
+        <li>Undo and Redo Feature</li>
+        <li>Multiple Cursors and Selectors aka Simultaneous editing</li>
+        <li>Alternative Capitals</li>
+        
+        <br/>
+        
+
+
       </section>
 
 
