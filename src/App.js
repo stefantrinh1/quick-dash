@@ -112,11 +112,8 @@ const App = () => {
         <li>Undo and Redo Feature</li>
         <li>Multiple Cursors and Selectors aka Simultaneous editing</li>
         <li>Alternative Capitals</li>
-        
         <br/>
-        
-
-
+      
       </section>
 
 
