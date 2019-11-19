@@ -110,6 +110,7 @@ const App = () => {
         <br/>
         <span><b><u>Pending Features/Functions</u></b></span>
         <li>Undo and Redo Feature</li>
+        <li>Lorem Ipsum Generator</li>
         <li>Multiple Cursors and Selectors aka Simultaneous editing</li>
         <li>Alternative Capitals</li>
         <br/>
